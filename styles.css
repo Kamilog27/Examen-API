@@ -1,0 +1,41 @@
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.homeworks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.homework{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    background: cornflowerblue;
+    height: 50px;
+    min-width:300px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    
+}
+.homework>img{
+    width: 30px;
+    height: 30px;
+    visibility: hidden;
+}
+.homework:hover>img{
+    visibility: visible;
+    cursor: pointer;
+}
+.homework>h3{
+    margin-left: 20px;
+    color:white;
+}
+.info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
